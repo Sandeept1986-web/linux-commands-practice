@@ -92,4 +92,3 @@ echo $MY_VAR
 - **Role:** Senior Cloud Engineer & DevOps/SRE Consultant  
 - **Focus:** Multi‑cloud automation, CI/CD pipelines, reusable technical resources  
 ```
-
