@@ -1,1 +1,123 @@
-# linux-commands-practice
+
+# Linux Commands Practice 🚀
+
+This repository contains a set of Linux command exercises with explanations and sample outputs.  
+It is designed as a hands‑on assignment to practice file management, permissions, environment variables, and more.
+
+---
+
+## 📂 1. Creating and Renaming Files/Directories
+```bash
+mkdir test_dir
+cd test_dir
+touch example.txt
+mv example.txt renamed_example.txt
+```
+**Explanation:** Creates a directory, adds an empty file, and renames it.  
+
+![Step 1 Screenshot](screenshots/step1.png)
+
+---
+
+## 📖 2. Viewing File Contents
+```bash
+cat /etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+```
+**Explanation:** Displays the full file, first 5 lines, and last 5 lines.  
+
+![Step 2 Screenshot](screenshots/step2.png)
+
+---
+
+## 🔍 3. Searching for Patterns
+```bash
+grep "root" /etc/passwd
+```
+**Explanation:** Finds all lines containing the word **root**.  
+
+![Step 3 Screenshot](screenshots/step3.png)
+
+---
+
+## 📦 4. Zipping and Unzipping
+```bash
+zip -r test_dir.zip test_dir
+unzip test_dir.zip -d unzipped_dir
+```
+**Explanation:** Compresses the directory and extracts it into a new directory.  
+
+![Step 4 Screenshot](screenshots/step4.png)
+
+---
+
+## 🌐 5. Downloading Files
+```bash
+wget https://example.com/sample.txt
+```
+**Explanation:** Downloads a file from the given URL.  
+
+![Step 5 Screenshot](screenshots/step5.png)
+
+---
+
+## 🔒 6. Changing Permissions
+```bash
+touch secure.txt
+chmod 444 secure.txt
+```
+**Explanation:** Creates a file and sets it to read‑only for everyone.  
+
+![Step 6 Screenshot](screenshots/step6.png)
+
+---
+
+## ⚙️ 7. Working with Environment Variables
+```bash
+export MY_VAR="Hello, Linux!"
+echo $MY_VAR
+```
+**Explanation:** Sets and verifies an environment variable.  
+
+![Step 7 Screenshot](screenshots/step7.png)
+
+---
+
+## 📂 Suggested Folder Structure
+```
+linux-commands-practice/
+│
+├── screenshots/          # Add your screenshots here
+│   ├── step1.png
+│   ├── step2.png
+│   ├── step3.png
+│   ├── step4.png
+│   ├── step5.png
+│   ├── step6.png
+│   └── step7.png
+├── sample_files/         # Any sample files created (optional)
+└── README.md             # This file
+```
+
+---
+
+## 📑 Submission Guidelines
+- Attach **screenshots** of each command execution.  
+- Include explanations alongside commands.  
+- Submit in **Google Doc or Microsoft Word** format.  
+- Provide a link to this GitHub repository.  
+
+---
+
+## ✅ Author
+- **Name:** Sandeep Thontla  
+- **Role:** Senior Cloud Engineer & DevOps/SRE Consultant  
+- **Focus:** Multi‑cloud automation, CI/CD pipelines, reusable technical resources  
+```
+
+---
+
+This file is **drop‑in ready** for your repo. Once you add screenshots into the `screenshots/` folder, they’ll automatically show up in the README.  
+
+👉 Do you want me to also prepare a **zip archive with the folder structure and empty screenshot placeholders** so you can initialize your repo instantly?
