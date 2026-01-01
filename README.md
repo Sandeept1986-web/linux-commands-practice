@@ -84,31 +84,6 @@ echo $MY_VAR
 
 ---
 
-## 📂 Suggested Folder Structure
-```
-linux-commands-practice/
-│
-├── screenshots/          # Add your screenshots here
-│   ├── step1.png
-│   ├── step2.png
-│   ├── step3.png
-│   ├── step4.png
-│   ├── step5.png
-│   ├── step6.png
-│   └── step7.png
-├── sample_files/         # Any sample files created (optional)
-└── README.md             # This file
-```
-
----
-
-## 📑 Submission Guidelines
-- Attach **screenshots** of each command execution.  
-- Include explanations alongside commands.  
-- Submit in **Google Doc or Microsoft Word** format.  
-- Provide a link to this GitHub repository.  
-
----
 
 ## ✅ Author
 - **Name:** Sandeep Thontla  
@@ -116,8 +91,3 @@ linux-commands-practice/
 - **Focus:** Multi‑cloud automation, CI/CD pipelines, reusable technical resources  
 ```
 
----
-
-This file is **drop‑in ready** for your repo. Once you add screenshots into the `screenshots/` folder, they’ll automatically show up in the README.  
-
-👉 Do you want me to also prepare a **zip archive with the folder structure and empty screenshot placeholders** so you can initialize your repo instantly?
