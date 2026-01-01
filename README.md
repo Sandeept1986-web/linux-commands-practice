@@ -13,9 +13,11 @@ cd test_dir
 touch example.txt
 mv example.txt renamed_example.txt
 ```
-**Explanation:** Creates a directory, adds an empty file, and renames it.  
+**Explanation:** Creates a directory, adds an empty file, and renames it.
 
-[Step 1 Screenshot](<img width="730" height="196" alt="Step1" src="https://github.com/user-attachments/assets/c0011ecc-bc16-48e1-9add-6f8bf08f7f5f" />)
+![Step 1 Screenshot](screenshots/Step1.png)
+
+
 
 ---
 
@@ -27,7 +29,7 @@ tail -n 5 /etc/passwd
 ```
 **Explanation:** Displays the full file, first 5 lines, and last 5 lines.  
 
-![Step 2 Screenshot](screenshots/step2.png)
+![Step 2 Screenshot](screenshots/Step2.png)
 
 ---
 
@@ -37,7 +39,7 @@ grep "root" /etc/passwd
 ```
 **Explanation:** Finds all lines containing the word **root**.  
 
-![Step 3 Screenshot](screenshots/step3.png)
+![Step 3 Screenshot](screenshots/Step3.png)
 
 ---
 
@@ -48,7 +50,7 @@ unzip test_dir.zip -d unzipped_dir
 ```
 **Explanation:** Compresses the directory and extracts it into a new directory.  
 
-![Step 4 Screenshot](screenshots/step4.png)
+![Step 4 Screenshot](screenshots/Step4.png)
 
 ---
 
@@ -58,7 +60,7 @@ wget https://example.com/sample.txt
 ```
 **Explanation:** Downloads a file from the given URL.  
 
-![Step 5 Screenshot](screenshots/step5.png)
+![Step 5 Screenshot](screenshots/Step5.png)
 
 ---
 
@@ -69,7 +71,7 @@ chmod 444 secure.txt
 ```
 **Explanation:** Creates a file and sets it to read‑only for everyone.  
 
-![Step 6 Screenshot](screenshots/step6.png)
+![Step 6 Screenshot](screenshots/Step6.png)
 
 ---
 
@@ -80,7 +82,7 @@ echo $MY_VAR
 ```
 **Explanation:** Sets and verifies an environment variable.  
 
-![Step 7 Screenshot](screenshots/step7.png)
+![Step 7 Screenshot](screenshots/Step7.png)
 
 ---
 
