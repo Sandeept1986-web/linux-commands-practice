@@ -15,7 +15,7 @@ mv example.txt renamed_example.txt
 ```
 **Explanation:** Creates a directory, adds an empty file, and renames it.  
 
-![Step 1 Screenshot](screenshots/step1.png)
+![Step 1 Screenshot](<img width="730" height="196" alt="Step1" src="https://github.com/user-attachments/assets/c0011ecc-bc16-48e1-9add-6f8bf08f7f5f" />)
 
 ---
 
